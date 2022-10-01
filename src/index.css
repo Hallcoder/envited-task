@@ -11,4 +11,7 @@
         color:#240D57;
         font-weight:bold;
     }
+    input[type="time"] {
+        -webkit-appearance: none;
+      }
 }
