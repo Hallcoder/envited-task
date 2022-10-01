@@ -13,7 +13,7 @@ function App() {
       <Route path='/' element={<LandingPage />}></Route>
       <Route path='/create' element={<CreateEvent />}></Route>
       <Route path='/event' element={<EventPage />}>
-        <Route path='/event/:eName/:hName/:location/:startDate/:'></Route>
+        <Route path='/event/:eName/:hName/:location/:startDate/:startTime/:endDate/:endTime/:location'></Route>
       </Route>
     </Routes>
     </BrowserRouter>
