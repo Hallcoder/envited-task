@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    *{
+        font-family: "Helvetica",
+    }
+    h1{
+        font-size:64px;
+        color:#240D57;
+        font-weight:bold;
+    }
+}
